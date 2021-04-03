@@ -14,3 +14,5 @@ import numpy as np
 import matplotlib.pyplot as plt
 import control as co
 ```
+### Python Control System Library
+Full Library [Here](https://python-control.readthedocs.io/en/0.9.0/)
