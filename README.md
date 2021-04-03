@@ -4,7 +4,7 @@ Control Systems Engineering with Python
 ### First step
 install control library
 ```python
-$ pip install -U control
+$ pip3 install -U control
 ```
 
 ### Second step
