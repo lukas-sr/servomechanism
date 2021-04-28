@@ -9,7 +9,7 @@ stop = 30
 increment = 0.1
 # array for the x axis
 time = np.arange(start,stop,increment) 
-y = K*(1-np.exp(time/T))
+y = K*(1-np.exp(-time/T))
 plt.plot(time,y)
 plt.title("1st Order Dynamic System")
 plt.xlabel("t[s]")
