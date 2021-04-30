@@ -10,7 +10,7 @@ num = np.array([3])
 den = np.array([4 , 1])
 
 H = co.tf(num, den)
-print('H(s) = '+ str(H))
+print('H(s) = ', H)
 
 t , y_s = co.step_response(H)
 
