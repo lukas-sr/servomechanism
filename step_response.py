@@ -3,11 +3,12 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 
-
+K = 3
+T = 4
 # H(s) = 3 / 4s + 1
 
-num = np.array([3])
-den = np.array([4 , 1])
+num = np.array([K])
+den = np.array([T , 1])
 
 H = co.tf(num, den)
 print('H(s) = ', H)
