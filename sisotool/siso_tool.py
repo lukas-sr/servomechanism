@@ -15,3 +15,4 @@ print(Gs)
 co.sisotool(Gs)
 
 plt.show()
+
