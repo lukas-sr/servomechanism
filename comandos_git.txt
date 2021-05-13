@@ -1,0 +1,11 @@
+Para começar repositório local: 
+	git init
+
+Para adicionar repositório do github:
+	git remote add origin <https://github...>
+
+Para listar os repositórios remotos:
+	git remote -v
+
+Para levar o código do repositório local para o repositório remoto:
+	git push origin master

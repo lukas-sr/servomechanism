@@ -26,7 +26,7 @@ w, mag, phase, = signal.bode(H, w)
 plt.figure()
 plt.subplot(2, 1, 1)
 plt.semilogx(w, mag)
-plt.title(b=None, which = 'major', axis = 'both')
+plt.title("Título")
 plt.grid(b=None, which = 'minor', axis = 'both')
 plt.ylabel("Magnitude (dB)")
 
