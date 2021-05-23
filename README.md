@@ -1,14 +1,15 @@
 # Servomechanism and Control
 Control Systems Engineering with Python
 
-### First step
+### First Step
 install control library
 ```python
 $ pip3 install -U control
 ```
 
-### Second step
+### Second Step
 Import prerequisites
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
